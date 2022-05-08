@@ -1,0 +1,45 @@
+{
+  "name": "yt-http-apis-using-aws-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "yt-http-apis-using-aws-cdk": "bin/yt-http-apis-using-aws-cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/aws-lambda": "^8.10.95",
+    "@types/fs-extra": "^9.0.13",
+    "@types/git-branch": "^2.0.2",
+    "@types/jest": "^26.0.10",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/jwk-to-pem": "^2.0.1",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "10.17.27",
+    "aws-cdk": "^2.23.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-authorizers-alpha": "^2.23.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.23.0-alpha.0",
+    "@aws-sdk/lib-dynamodb": "^3.79.0",
+    "ajv": "^8.11.0",
+    "aws-cdk-lib": "^2.23.0",
+    "aws-lambda": "^1.0.7",
+    "axios": "^0.27.2",
+    "constructs": "^10.0.0",
+    "fs-extra": "^10.1.0",
+    "git-branch": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
+    "lodash": "^4.17.21",
+    "source-map-support": "^0.5.16"
+  }
+}
