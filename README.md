@@ -1,4 +1,4 @@
-# Create & Invoke Lambda Function URLs
+# Develop & Deploy Lambda Backed HTTP APIs Using AWS CDK
 
 This is a companion repo for my youtube video explaining the process of creating HTTP APIs using AWS CDK
 
