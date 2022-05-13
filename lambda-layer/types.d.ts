@@ -35,6 +35,7 @@ export type APIPayloadValidationResult = {
 };
 
 export type User = {
+  itemType: string;
   firstName: string;
   lastName: string;
   email: string;

@@ -1,14 +1,25 @@
-# Welcome to your CDK TypeScript project
+# Create & Invoke Lambda Function URLs
 
-This is a blank project for TypeScript development with CDK.
+This is a companion repo for my youtube video explaining the process of creating HTTP APIs using AWS CDK
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+YouTube Video: https://youtu.be/3mBAySgTYsc
 
-## Useful commands
+## URLs
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+Multi Env CDK Youtube Video: https://youtu.be/H7Ynxkk_jss
+
+Develop, Test & Deploy TypeScript Lambda Functions: https://youtu.be/DUNEuhOQ1k4
+
+AWS Profile NPM Package: https://www.npmjs.com/package/awsprofile
+
+Git Branch NPM Package: https://www.npmjs.com/package/git-branch
+
+AWS CDK Documentation: https://docs.aws.amazon.com/cdk/api/v2/docs/aws-construct-library.html
+
+## Commands & Code Snippets
+
+### CDK Deploy
+
+```
+cdk deploy --all --require-approval never --progress events
+```

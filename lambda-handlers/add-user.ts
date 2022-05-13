@@ -18,6 +18,7 @@ export const handler: APIGatewayProxyHandlerV2 = async (event, context) => {
       if (validationResult.isValid) {
         // Build User DDB Item
         const user: User = {
+          itemType: 'User',
           firstName: body.firstName,
           lastName: body.lastName,
           email: body.email,
